@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Microlead - Barre de recherche Javascript</title>
+  </head>
+
+  <body>
+    <h1>Microlead - Barre de recherche Javascript</h1>
+
+    <form id="form-search">
+      <input class="input-search" placeholder="John Doe" type="text" />
+      <button type="submit">Rechercher</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Auteur</th>
+          <th>Identifiant</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody id="table"></tbody>
+    </table>
+
+    <script src="seeds.js" defer></script>
+    <script src="main.js" defer></script>
+  </body>
+</html>
